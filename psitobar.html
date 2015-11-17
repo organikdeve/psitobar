@@ -1,0 +1,35 @@
+<form class="pure-form" onsubmit="return false;" >
+    <fieldset>
+        <div class="pure-g">
+    <div class="pure-u-1-2">
+        <label for="psi">PSI</label>
+        <input type="text" name="psi" id="psi" placeholder="Psi value" />
+    </div>
+          <div class="pure-u-1-2">  
+        <label for="decimal">Precision</label>
+        <select id="decimal" name="decimal" onchange="psitobar();">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8" selected>8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+        </select>
+          </div>
+        </div>
+        
+        <button type="submit" class="pure-button pure-button-primary" onclick="psitobar();"  title="Convert Psi to Bar">Convert to Bar</button>
+    </fieldset>
+        <div id="barresult" class="result">
+        1 Psi = 0.06894757293168 Bar
+    </div>
+</form>
