@@ -1,3 +1,4 @@
 # psitobar
 Psi to Bar Conversion
-Calculation of bar in php.
+
+Calculation of pressure bar with javascript used in http://www.psitobar.net/
